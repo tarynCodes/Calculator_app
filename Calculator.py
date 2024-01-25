@@ -21,3 +21,10 @@ operations = {
     "*": multiply,
     "/": divide
     }
+
+num1 = int(input("Whats the first number?: "))
+num2 = int(input("whats your second number?: "))
+
+for symbols in operations:
+    print(symbols)
+
